@@ -1,0 +1,10 @@
+# Tooling
+pip-tools
+
+# Testing
+tox
+pytest
+
+# Formatting
+black 
+isort
