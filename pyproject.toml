@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfi"
+authors = [
+    {name = "Christopher Good", email = "csgoodjr@icloud.com"},
+]
+description = "Collection of Financial Equations with easy to use interfaces"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["financial", "equations"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
